@@ -1,5 +1,13 @@
 # Fairness_NC
+
 ## Collapsed Language Models Promote Fairness
+This repository contains the code for our paper, ["Collapsed Language Models Promote Fairness"](). 
+
+To mitigate societal biases implicitly encoded in recent successful pretrained language models, a diverse array of approaches have been proposed to encourage model fairness, focusing on prompting, data augmentation, regularized fine-tuning, and more.
+Despite the development, it is nontrivial to reach a principled understanding of fairness and an effective algorithm that can consistently debias language models.
+In this work, by rigorous evaluations of Neural Collapse -- a learning phenomenon happen in last-layer representations and classifiers in deep networks -- on fairness-related words, we find that debiased language models exhibit collapsed alignment between token representations and word embeddings.
+More importantly, this observation inspires us to design a principled fine-tuning method that can effectively improve fairness in a wide range of debiasing methods, while still preserving the performance of language models on standard natural language understanding tasks.
+
 
 ## Getting Started
 Each folder contains modifications to the original model, incorporating the NC3 regularization mentioned in our paper. However, this repository does not include the datasets required for each project, so you will need to download them manually from the original repository.
