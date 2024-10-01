@@ -1,5 +1,3 @@
-# Fairness_NC
-
 ## Collapsed Language Models Promote Fairness
 This repository contains the code for our paper, ["Collapsed Language Models Promote Fairness"](). 
 
