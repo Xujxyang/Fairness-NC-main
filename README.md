@@ -1,4 +1,5 @@
 # Fairness_NC
+## Collapsed Language Models Promote Fairness
 
 ## Getting Started
 Each folder contains modifications to the original model, incorporating the NC3 regularization mentioned in our paper. However, this repository does not include the datasets required for each project, so you will need to download them manually from the original repository.
