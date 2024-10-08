@@ -1,5 +1,5 @@
 ## Collapsed Language Models Promote Fairness
-This repository contains the code for our paper, ["Collapsed Language Models Promote Fairness"](). 
+This repository contains the code for our paper, ["Collapsed Language Models Promote Fairness"](https://arxiv.org/abs/2410.04472). 
 
 To mitigate societal biases implicitly encoded in recent successful pretrained language models, a diverse array of approaches have been proposed to encourage model fairness, focusing on prompting, data augmentation, regularized fine-tuning, and more.
 Despite the development, it is nontrivial to reach a principled understanding of fairness and an effective algorithm that can consistently debias language models.
